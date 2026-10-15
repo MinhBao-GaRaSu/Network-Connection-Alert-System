@@ -1,0 +1,40 @@
+# Maven build target
+target/
+*.war
+*.ear
+*.nar
+
+# Java compiled classes
+*.class
+
+# NetBeans IDE files
+nbproject/private/
+nbbuild/
+dist/
+build/
+.nb-gradle/
+
+# IDE configs
+.idea/
+*.iml
+.vscode/
+
+# SQLite: file dữ liệu và file tạm
+*.db
+*.db-shm
+*.db-wal
+
+# File nhị phân lớn và log
+*.jar
+*.zip
+*.log
+
+# Cấu hình chứa mật khẩu Email
+config.properties
+
+# Tài liệu cá nhân & OS
+*.docx
+*.pdf
+extracted_doc.txt
+.DS_Store
+Thumbs.db
